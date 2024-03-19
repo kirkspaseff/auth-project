@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { getServerSession } from 'next-auth';
+import { Button, createTheme, MantineProvider } from '@mantine/core';
 
 import SessionProvider from './components/SessionProvider';
 import { Session } from 'inspector';
